@@ -2,5 +2,9 @@
     "files.watcherExclude": {
         "**/.git": true,
         "**/.vscode": true
+    },
+    "files.autoGuessEncoding": false,
+    "files.exclude": {
+        "**/.vscode": true
     }
 }
