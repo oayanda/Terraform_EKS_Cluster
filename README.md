@@ -10,5 +10,5 @@ This repo contains terraform configuration for a EKS cluster on AWS with an S3 b
 - Create kubeconfig file using awscli.
 
 ```bash
-aws eks update-kubecofig --name <cluster_name> --region <cluster_region> --kubeconfig kubeconfig
+aws eks update-kubeconfig --name <cluster_name> --region <cluster_region> --kubeconfig kubeconfig
 ```
